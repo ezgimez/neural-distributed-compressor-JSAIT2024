@@ -1,6 +1,6 @@
 ## Neural Distributed Compressor Discovers Binning [arXiv](https://arxiv.org/abs/2310.16961) |  [IEEE Xplore](https://ieeexplore.ieee.org/document/10508220)
 
-- This repo includes a Colab Notebook for the proposed neural distributed compressor in the [JSAIT'24 paper](https://ieeexplore.ieee.org/document/10508220).
+- This repo includes a Colab Notebook for the proposed neural distributed compressor, as featured in the [IEEE Journal on Selected Areas in Information Theory (JSAIT)'24](https://ieeexplore.ieee.org/document/10508220).
 
 ### TL;DR
 As an alternative to the state-of-the-art neural compressors, which be collected under the banner of [nonlinear transform coding (NTC)](https://arxiv.org/abs/2007.03034), our work proposes a more generic learning-based algorithm, which represents the first *unstructured entropy-constrained vector quantizer* that makes use of side information. We demonstrate that our approach succeeds in recovering many-to-one mappings exploiting the side information and as a consequence, is able to learn interpretable *binning* (i.e., many-to-one mappings, groupings) in the source space -- whereas NTC fails!
